@@ -1,8 +1,0 @@
-{
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "app-icon": "../../components/AppIcon",
-    "app-tab-bar": "../../components/AppTabBar",
-    "week-path": "../../components/WeekPath"
-  }
-}

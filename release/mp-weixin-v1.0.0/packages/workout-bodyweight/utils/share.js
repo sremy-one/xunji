@@ -1,1 +1,0 @@
-"use strict";exports.workoutSharePayload=function(e,t){return{title:`我在由迹而寻完成了「${e.planTitle}」，连续运动 ${t} 天`,path:`/packages/workout-bodyweight/pages/complete?sessionId=${e.id}`,imageUrl:"/static/brand/youjierxun-yinling-banner.jpg"}};

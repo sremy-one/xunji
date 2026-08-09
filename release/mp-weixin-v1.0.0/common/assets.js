@@ -1,1 +1,0 @@
-"use strict";exports._imports_0="/static/brand/youjierxun-yinling-banner.jpg",exports._imports_0$1="/static/brand/youjierxun-app-avatar.jpg",exports._imports_0$2="/static/training/training-stage-environment-v1.jpg",exports._imports_0$3="/static/celebration/yinling-finish-04-daydream.jpg";

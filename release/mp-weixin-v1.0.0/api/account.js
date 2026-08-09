@@ -1,1 +1,0 @@
-"use strict";const t=require("../request/authenticated.js");exports.updateAccountProfile=function(e){return t.authenticatedRequest("/account/profile",{method:"PUT",data:e})},exports.uploadAccountAvatar=function(e,a){return t.authenticatedRequest("/account/avatar",{method:"POST",data:e,headers:{"content-type":a}})};

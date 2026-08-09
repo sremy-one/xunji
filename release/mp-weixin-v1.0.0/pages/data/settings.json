@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "数据管理",
-  "usingComponents": {
-    "app-icon": "../../components/AppIcon",
-    "privacy-consent-modal": "../../components/PrivacyConsentModal"
-  }
-}
