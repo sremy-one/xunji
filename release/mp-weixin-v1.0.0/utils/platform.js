@@ -1,0 +1,1 @@
+"use strict";const t=require("../common/vendor.js");exports.getCustomPageTopInset=function(){let e=12;try{const n=t.index.getWindowInfo(),o=t.index.getMenuButtonBoundingClientRect();e=Math.max((n.statusBarHeight||20)+8,o.bottom+8)}catch{e=56}return e};

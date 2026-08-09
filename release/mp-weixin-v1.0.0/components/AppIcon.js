@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js"),t=e.defineComponent({__name:"AppIcon",props:{name:{},size:{default:24},muted:{type:Boolean,default:!1}},setup:e=>(e,t)=>({a:e.muted?1:"",b:`/static/icons/${e.name}.png`,c:`${e.size}px`,d:`${e.size}px`})}),n=e._export_sfc(t,[["__scopeId","data-v-10081030"]]);wx.createComponent(n);

@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),s=require("../../common/assets.js");Math||n();const n=()=>"../../components/AppIcon.js",o=e.defineComponent({__name:"index",setup:n=>(n,o)=>({a:s._imports_0$1,b:e.p({name:"shield",size:22}),c:e.p({name:"plant",size:22}),d:e.p({name:"notebook",size:22})})}),t=e._export_sfc(o,[["__scopeId","data-v-fc6934b9"]]);wx.createPage(t);

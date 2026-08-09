@@ -1,0 +1,46 @@
+{
+  "description": "由迹而寻微信小程序",
+  "miniprogramRoot": "dist/build/mp-weixin/",
+  "packOptions": {
+    "ignore": [],
+    "include": [
+      { "type": "folder", "value": "packages/library/static/gifs" },
+      { "type": "folder", "value": "packages/workout-bodyweight/static/gifs" },
+      { "type": "folder", "value": "packages/workout-bodyweight/static/images" },
+      { "type": "folder", "value": "packages/workout-equipment/static/gifs" },
+      { "type": "folder", "value": "packages/workout-equipment/static/images" }
+    ]
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": false,
+    "minified": true,
+    "newFeature": true,
+    "bigPackageSizeSupport": true,
+    "ignoreDevUnusedFiles": false,
+    "ignoreUploadUnusedFiles": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx7b0a24e1c7116fed",
+  "projectname": "由迹而寻",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": []
+    }
+  }
+}

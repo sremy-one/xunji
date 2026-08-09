@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/today/index",
+    "pages/train/index",
+    "pages/records/index",
+    "pages/profile/index",
+    "pages/account/settings",
+    "pages/data/settings",
+    "pages/about/index",
+    "pages/privacy/privacy",
+    "pages/onboarding/index"
+  ],
+  "subPackages": [
+    {
+      "root": "packages/planner",
+      "pages": [
+        "pages/select"
+      ]
+    },
+    {
+      "root": "packages/library",
+      "pages": [
+        "pages/index",
+        "pages/detail"
+      ]
+    },
+    {
+      "root": "packages/workout-bodyweight",
+      "pages": [
+        "pages/session",
+        "pages/complete"
+      ]
+    },
+    {
+      "root": "packages/workout-equipment",
+      "pages": [
+        "pages/session",
+        "pages/complete"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "由迹而寻",
+    "navigationBarBackgroundColor": "#f7f3ea",
+    "backgroundColor": "#f7f3ea",
+    "backgroundTextStyle": "dark"
+  },
+  "preloadRule": {
+    "pages/train/index": {
+      "network": "all",
+      "packages": [
+        "packages/library"
+      ]
+    }
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usePrivacyCheck": true,
+  "usingComponents": {}
+}

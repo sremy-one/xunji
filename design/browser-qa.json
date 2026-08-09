@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "viewport": "390x844",
+  "home": {
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "bodyHeight": 844,
+    "title": "由迹而寻",
+    "posterVisible": true
+  },
+  "responsive": [
+    {
+      "viewport": "768x900",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "pageWidth": 390
+    },
+    {
+      "viewport": "1280x900",
+      "scrollWidth": 1280,
+      "clientWidth": 1280,
+      "pageWidth": 390
+    }
+  ],
+  "workoutRoute": "http://127.0.0.1:4173/#/packages/workout-bodyweight/pages/session?planId=focus-bodyweight-back",
+  "workout": {
+    "title": "原地踏步热身",
+    "backgroundSrc": "/static/training/training-stage-environment-v1.jpg",
+    "imageSrc": "/packages/workout-bodyweight/static/gifs/yl-standing-march.gif"
+  },
+  "tabRoute": "http://127.0.0.1:4173/#/pages/train/index",
+  "errors": []
+}

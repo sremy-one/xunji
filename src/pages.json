@@ -1,0 +1,52 @@
+{
+  "pages": [
+    { "path": "pages/today/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/train/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/records/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/profile/index", "style": { "navigationStyle": "custom" } },
+    { "path": "pages/account/settings", "style": { "navigationBarTitleText": "账号设置" } },
+    { "path": "pages/data/settings", "style": { "navigationBarTitleText": "数据管理" } },
+    { "path": "pages/about/index", "style": { "navigationBarTitleText": "关于与声明" } },
+    { "path": "pages/privacy/privacy", "style": { "navigationBarTitleText": "隐私保护指引" } },
+    { "path": "pages/onboarding/index", "style": { "navigationBarTitleText": "训练计划偏好" } }
+  ],
+  "subPackages": [
+    {
+      "root": "packages/planner",
+      "pages": [
+        { "path": "pages/select", "style": { "navigationStyle": "custom" } }
+      ]
+    },
+    {
+      "root": "packages/library",
+      "pages": [
+        { "path": "pages/index", "style": { "navigationStyle": "custom" } },
+        { "path": "pages/detail", "style": { "navigationStyle": "custom" } }
+      ]
+    },
+    {
+      "root": "packages/workout-bodyweight",
+      "pages": [
+        { "path": "pages/session", "style": { "navigationStyle": "custom" } },
+        { "path": "pages/complete", "style": { "navigationStyle": "custom" } }
+      ]
+    },
+    {
+      "root": "packages/workout-equipment",
+      "pages": [
+        { "path": "pages/session", "style": { "navigationStyle": "custom" } },
+        { "path": "pages/complete", "style": { "navigationStyle": "custom" } }
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/train/index": { "network": "all", "packages": ["packages/library"] }
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "由迹而寻",
+    "navigationBarBackgroundColor": "#f7f3ea",
+    "backgroundColor": "#f7f3ea",
+    "backgroundTextStyle": "dark"
+  }
+}

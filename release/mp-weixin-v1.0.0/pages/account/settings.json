@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "账号设置",
+  "usingComponents": {
+    "app-icon": "../../components/AppIcon",
+    "privacy-consent-modal": "../../components/PrivacyConsentModal"
+  }
+}

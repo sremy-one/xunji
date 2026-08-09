@@ -1,0 +1,28 @@
+{
+  "name": "由迹而寻",
+  "appid": "",
+  "description": "面向健身新手的轻量训练计划、打卡与记录小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wx7b0a24e1c7116fed",
+    "lazyCodeLoading": "requiredComponents",
+    "usePrivacyCheck": true,
+    "setting": {
+      "urlCheck": true,
+      "minified": true,
+      "bigPackageSizeSupport": true,
+      "ignoreDevUnusedFiles": false,
+      "ignoreUploadUnusedFiles": false
+    },
+    "optimization": { "subPackages": true },
+    "usingComponents": true
+  },
+  "h5": {
+    "title": "由迹而寻",
+    "router": { "mode": "hash" }
+  },
+  "uniStatistics": { "enable": false },
+  "vueVersion": "3"
+}

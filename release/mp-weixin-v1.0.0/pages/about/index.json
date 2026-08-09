@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "关于与声明",
+  "usingComponents": {
+    "app-icon": "../../components/AppIcon"
+  }
+}
